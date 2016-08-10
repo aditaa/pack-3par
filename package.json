@@ -1,0 +1,25 @@
+{
+    "name": "3par",
+    "types": ["pack"],
+    "version": "0.1",
+    "homepage": "https://github.com/aditaa/pack-3par",
+    "author": "Daniel Shirley",
+    "description": "System checks for 3par storage array",
+    "contributors": [
+        {
+            "name": "Daniel Shirley",
+            "email": "daniel.l.shirley@hpe.com"
+        }
+    ],
+    "repository": "https://github.com/aditaa/pack-3par",
+    "keywords": [
+        "pack",
+        "3par",
+        "snmp",
+        "ssh"
+    ],
+    "dependencies": {
+        "shinken": ">=1.4"
+    },
+    "license": "GPL"
+}
