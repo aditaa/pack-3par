@@ -1,0 +1,10 @@
+{
+    "name":"3par",
+    "description":"3PAR checks, like disk space and capacity. Checks are done by SSH by default.",
+    "path":"os/",
+    "macros":{
+        "_3PARUSER": {"type":"string",
+            "description":"The SSH read user allowed on the server"
+        }
+    }
+}
